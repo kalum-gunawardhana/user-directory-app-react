@@ -12,4 +12,8 @@ function Greeting(props) {
     );
 }
 
+function greeting({ name, age }) {
+    return <h2>Hello {name}, you are {age} years old!</h2>;
+}
+
 export default example
