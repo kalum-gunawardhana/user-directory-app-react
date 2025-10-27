@@ -1,0 +1,12 @@
+btn {
+  background-color: bisque;
+  border-radius: 6px;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+btn:hover {
+  background-color: lightcoral;
+}
